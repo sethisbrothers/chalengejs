@@ -1,0 +1,123 @@
+body{
+    background-color: #A9D7E9;
+}
+h1{
+    margin-left: 12em;
+}
+form{
+    background-color: #F3F3F3;
+    border-radius: 3px;
+    width: 45%;
+    margin-left: 20%;
+    margin-right: 30%;
+    justify-content: center;
+}
+#conteneur{
+     /*Me permet de mettre des boites flexibles pour mes élements afin de pouvoir les manipuler à ma guise*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/*A présent nous allons faire des ajustements d'espace avec les élements qui sont commun le long du code*/
+
+.element1{
+    margin-top: 5px;
+}
+.element2{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.element3{
+    margin-left: 90px;
+}
+input.nom{
+/*nous permet de redimensionner chaque rectangle à renseigner dans le formulaire*/
+    padding-top: 7px;
+    width: 15em;
+    height: 20px;
+    border-radius: 3px;
+    margin: -3px;
+}
+/*Maintenant passons à l'espacement de chaque classe spécifique déclarer dans mon code html*/
+.satisfaction{
+    margin-left: -13.5em;
+}
+.v{
+    width: 10em;
+    height: 20px;
+    border-radius: 3px;
+    margin: -3px;
+}
+/*Le choix des coach*/
+.coach{
+    margin-left: -6em;
+}
+.choix{
+    width: 15em;
+    height: 30px;
+    border-radius: 3px;
+    margin: -3px;
+}
+/*Le choix des moments de cours ainsi le jour nous permet de mettre sur la même ligne la phrase et le début des choix*/
+.moment{
+    margin-left: -15em;
+    margin-top: 20px;
+}
+.cours{
+    margin-left: 126px;
+}
+.jour{
+    margin-top: 20px;
+}
+/*Le choix des outils utilisés*/
+.langue{
+    margin-left: -10em;
+}
+.la{
+    margin-top: 20px;
+    margin-left: -8em;
+}
+.qui{
+    margin-top: 35px;
+    margin-left: -10em;
+}
+.app{
+    margin-top: 50px;
+    margin-left: -4.5em;
+}
+.boite{
+    margin-left: 24px;
+}
+.h{
+    margin-top: 9px;
+}
+/*Pour mettre un commentaire*/
+.vo{
+    margin-top: 25px;
+    margin-left: -3em;
+}
+.jus{
+    margin-top: 40px;
+    margin-left: -4em;
+}
+.ar{
+    margin-top: 25px;
+    margin-left: -4em;
+}
+/*pour mettre au centre le bouton et le changer de couleur*/
+.button{
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
+    background: #6BA2CE;
+    justify-items: center;
+}
+.b{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -4em;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="formulaire.css">
+        <title>Formulaire en html&css</title>
+    </head>
+    <body>
+        <h1>Formulaire DWWM</h1>
+        <form>
+            <div id="conteneur">
+                <div class="element1"><label>Nom</label></div><div class="element2"><input id="name" class="nom" type="text" placeholder="Entrez votre nom" ></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1"><label>Email</label></div><div class="element2"><input id="mail" class="nom" type="email" placeholder="Entrez votre email"></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1 satisfaction"><label>Indiquez votre satisfaction au<div class="element3">cours de 1 à 10</div></label></div><div class="element2"><input id="number" class="v" type="text" placeholder="numéro de 1 à 10"></div>
+            </div><br>
+            <div id="conteneur">
+                <div class="element1 coach">Qui est votre Coach?</div><div class="element2"><select id="choice" class="choix"><option>Birante</option><option>Malick</option><option>Mamadou</option></select></div><br>
+            </div>
+            <div id="conteneur">
+                <div class="element1 vo"><label>Décrivez votre expérience </div><div class="jus">jusque là</div>
+                    <div class="element3"><textarea id="commenter" class="ar" placeholder="Décrivez votre expérience ici..." cols="35" rows="3"></textarea></div>
+                </label>
+            </div><br>
+           <div class="b"> <button  type="button" class="button" onclick="Envoyer()" >Envoyer</button>
+           </div>
+           
+                <h1 id="message1"> </h1>
+                <h1 id="message2"> </h1>
+                <h1 id="message3"> </h1>
+                <h1 id="message4"> </h1>
+                <h1 id="message5"> </h1>
+           
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
